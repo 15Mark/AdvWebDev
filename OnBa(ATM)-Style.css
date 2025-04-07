@@ -1,0 +1,76 @@
+body {
+    background-color: #f0f2f5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  header {
+    border-bottom: 1px solid #dee2e6;
+  }
+  
+  .bank-logo h1 {
+    margin: 0;
+    font-size: 1.8rem;
+  }
+  
+  nav a {
+    font-size: 1.1rem;
+  }
+  
+  .atm-container {
+    max-width: 900px;
+    margin: 60px auto;
+  }
+  
+  .atm-screen {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+  }
+  
+  .atm-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #003366;
+  }
+  
+  .atm-subtitle {
+    font-size: 1.2rem;
+    color: #666;
+  }
+  
+  .atm-card {
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+    transition: transform 0.2s;
+  }
+  
+  .atm-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+  }
+  
+  .btn-atm {
+    background-color: #003366;
+    color: white;
+    padding: 10px 20px;
+    font-weight: 500;
+    border-radius: 8px;
+    border: none;
+  }
+  
+  .btn-atm:hover {
+    background-color: #002244;
+  }
+  
+  footer {
+    background-color: #003366;
+  }
+  
+  footer a {
+    color: white;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
