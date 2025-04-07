@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>University Enrollment</title>
+
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  
+
+  <link rel="stylesheet" href="EnUn-nStyle.css" />
+</head>
+<body>
+
+  <header class="bg-primary text-white py-3">
+    <div class="container d-flex justify-content-between align-items-center">
+      <div class="university-logo">
+        <h1 class="mb-0">Angils University</h1>
+      </div>
+      <nav>
+        <a href="#" class="text-white text-decoration-none mx-3">Home</a>
+        <a href="#" class="text-white text-decoration-none mx-3">About Us</a>
+        <a href="#" class="text-white text-decoration-none mx-3">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="enrollment-wrapper">
+      <div class="form-title">University Enrollment Form</div>
+      <form>
+        <div class="row mb-3">
+          <div class="col-md-6">
+            <label for="firstName" class="form-label">First Name</label>
+            <input
+              type="text"
+              class="form-control"
+              id="firstName"
+              placeholder="John"
+              required
+            />
+          </div>
+          <div class="col-md-6">
+            <label for="lastName" class="form-label">Last Name</label>
+            <input
+              type="text"
+              class="form-control"
+              id="lastName"
+              placeholder="Doe"
+              required
+            />
+          </div>
+        </div>
+
+        <div class="mb-3">
+          <label for="email" class="form-label">Email Address</label>
+          <input
+            type="email"
+            class="form-control"
+            id="email"
+            placeholder="john.doe@example.com"
+            required
+          />
+        </div>
+
+        <div class="row mb-3">
+          <div class="col-md-6">
+            <label for="dob" class="form-label">Date of Birth</label>
+            <input type="date" class="form-control" id="dob" required />
+          </div>
+          <div class="col-md-6">
+            <label for="phone" class="form-label">Phone Number</label>
+            <input
+              type="tel"
+              class="form-control"
+              id="phone"
+              placeholder="e.g. 123-456-7890"
+              required
+            />
+          </div>
+        </div>
+
+        <div class="mb-3">
+          <label class="form-label">Gender</label><br />
+          <div class="form-check form-check-inline">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="gender"
+              id="male"
+              value="Male"
+              required
+            />
+            <label class="form-check-label" for="male">Male</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="gender"
+              id="female"
+              value="Female"
+            />
+            <label class="form-check-label" for="female">Female</label>
+          </div>
+        </div>
+
+        <div class="mb-3">
+          <label for="course" class="form-label">Select Program</label>
+          <select class="form-select" id="course" required>
+            <option value="" selected disabled>Select a program</option>
+            <option>Bachelor of Science in Computer Science</option>
+            <option>Bachelor of Business Administration</option>
+            <option>Bachelor of Arts in English</option>
+            <option>Bachelor of Commerce</option>
+            <option>Bachelor of Education</option>
+          </select>
+        </div>
+
+        <div class="mb-3">
+          <label for="address" class="form-label">Permanent Address</label>
+          <textarea
+            class="form-control"
+            id="address"
+            rows="3"
+            placeholder="Enter your full address"
+            required
+          ></textarea>
+        </div>
+
+        <div class="text-center">
+          <button type="submit" class="btn btn-enroll mt-3">
+            Submit Application
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+
+  <footer class="bg-primary text-white py-4 mt-5">
+    <div class="container text-center">
+      <p>&copy; 2025 Angils University. All rights reserved.</p>
+      <p><a href="#" class="text-white text-decoration-none">Privacy Policy</a> | <a href="#" class="text-white text-decoration-none">Terms of Service</a></p>
+      <p>Contact Us: <a href="mailto:evangelistamarkangelo1379@gmail.com" class="text-white">support@AngilsUniversity.com</a></p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
