@@ -14,5 +14,4 @@ html -> StaffHiringAgency.html
 css-> StHiAg-Style.css
 
 by: Mark Angelo R. Evangelista
-
 Professor: Emelbe S. Meneses
